@@ -35,5 +35,23 @@ Add your name inside the file.
 ```
 echo "Hello, I am <YourName>" > Lesson_1/<YourName>.txt
 ```
+Check the status of the file.
+```
+git status
+```
+Something similar to the following output will appear.
+```
+On branch master
+Your branch is up to date with 'origin/master'.
 
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
 
+        new file:   Lesson_1/YourName.txt
+```
+
+Commit the file to the repository. 
+```
+$ git commit -m "Added IgorStojanov.txt"
+$ git push origin master
+```
