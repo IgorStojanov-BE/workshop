@@ -28,10 +28,12 @@ cd workshop
 Create a new file and name it with your name.
 
 ```
-touch git-github-basics/<YourName>.txt
-echo "Hello, I am <YourName>" > git-github-basics/<YourName>.txt
-
+touch Lesson_1/<YourName>.txt
 ```
 
+Add your name inside the file.
+```
+echo "Hello, I am <YourName>" > Lesson_1/<YourName>.txt
+```
 
 
